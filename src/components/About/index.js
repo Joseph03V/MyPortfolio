@@ -2,22 +2,16 @@ import React from "react"
 import PortfolioImage from "../../assets/avatar.png"
 import {DiJqueryLogo,DiMongodb} from "react-icons/di"
 import {
-    FaGitAlt,
-    FaGithub,
     FaHtml5,
     FaCss3Alt,
     FaJsSquare,
     FaBootstrap,
     FaNode,
     FaReact,
-    FaNpm,
 } from "react-icons/fa"
 import {
     SiMysql,
-    SiHeroku,
-    SiWebpack,
     SiRedux,
-    SiReactrouter,
     SiGraphql,
   } from "react-icons/si"
 
@@ -66,3 +60,6 @@ function About () {
         </div>
     )
 }
+
+
+export default About

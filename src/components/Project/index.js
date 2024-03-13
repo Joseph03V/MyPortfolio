@@ -1,6 +1,6 @@
 import React from "react"
 import {Card} from "react-bootstrap"
-import {FaExternalLink,FaGithub} from "react-icons/fa"
+import {FaGithub} from "react-icons/fa"
 
 
 const Projects = ({singleProject}) => {
@@ -35,7 +35,6 @@ const Projects = ({singleProject}) => {
                     <FaGithub style={{fontSize:"30px"}}/>
                 </a>
                 <a href={singleProject.deployedLink}target="_blank"rel="noreferrer"className="card-text">
-                    <FaExternalLink style={{fontSize:"25px"}}/>
                 </a>
             </Card.Footer>
 
